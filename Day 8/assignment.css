@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(193, 145, 83);
+}
+
+header nav {
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+header ul li {
+  float: left;
+}
+
+li {
+  list-style-type: none;
+  padding: 14px 15px;
+}
+
+header ul li:hover {
+  background-color: rgb(234, 130, 3);
+}
+
+li a {
+  text-decoration: none;
+}
+main {
+  background-color: rgb(101, 114, 145);
+  width: 65%;
+  float: left;
+}
+
+.side aside {
+  float: right;
+  width: 25%;
+}
+
+.side aside ul li {
+  background-color: beige;
+  text-align: center;
+}
+
+.image_1 img {
+  width: 900px;
+  height: 800px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+}
+
+.price {
+  text-align: center;
+  font-size: 25px;
+}
